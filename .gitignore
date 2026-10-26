@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Test tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment (Stiltstep reads no environment variables)
+.env
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+*.swp

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stiltstep"
+version = "1.0.0"
+description = "Staddle stone grading, granary floor layout and rodent guard checks."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+license = { text = "MIT" }
+authors = [{ name = "Stiltstep" }]
+keywords = ["granary", "staddle-stone", "layout", "cli"]
+
+[project.scripts]
+stiltstep = "stiltstep:main"
+
+[tool.setuptools]
+py-modules = ["stiltstep"]
